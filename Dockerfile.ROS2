@@ -1,6 +1,6 @@
 FROM ros:galactic
 
-CMD ["/bin/bash"]
+ENTRYPOINT ["/bin/bash"]
 
 ARG DEBIAN_FRONTEND=noninteractive
 
