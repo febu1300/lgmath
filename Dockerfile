@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-CMD ["/bin/bash"]
+ENTRYPOINT ["/bin/bash"]
 
 ARG DEBIAN_FRONTEND=noninteractive
 
